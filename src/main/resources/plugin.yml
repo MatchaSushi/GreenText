@@ -1,5 +1,5 @@
 name: GreenText
-version: ${project.version}
+version: 1.0.2
 main: me.matcha.greentext.Main
 api-version: 1.13
 authors: [Matcha]

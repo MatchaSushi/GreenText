@@ -9,13 +9,13 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("GreenText v1.0.0 by Matcha is now enabled!");
+        getLogger().info("GreenText v1.0.2 by Matcha is now enabled!");
         Bukkit.getServer().getPluginManager().registerEvents(new ChatListener(), this);
     }
 
 
     @Override
     public void onDisable() {
-        getLogger().info("GreenText v1.0.0 by Matcha is now disabled! :( Sadface");
+        getLogger().info("GreenText v1.0.2 by Matcha is now disabled! :( Sadface");
     }
 }
