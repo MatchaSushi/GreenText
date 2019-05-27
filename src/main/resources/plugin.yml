@@ -1,0 +1,6 @@
+name: GreenText
+version: ${project.version}
+main: me.matcha.greentext.Main
+api-version: 1.13
+authors: [Matcha]
+description: Turns messages that start with > green, exclusing emojis.

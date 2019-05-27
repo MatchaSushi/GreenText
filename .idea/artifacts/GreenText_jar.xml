@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GreenText:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GreenText_jar</output-path>
+    <root id="archive" name="GreenText.jar">
+      <element id="module-output" name="GreenText" />
+    </root>
+  </artifact>
+</component>
