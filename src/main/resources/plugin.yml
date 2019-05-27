@@ -4,3 +4,7 @@ main: me.matcha.greentext.Main
 api-version: 1.13
 authors: [Matcha]
 description: Turns messages that start with > green, exclusing emojis.
+permissions:
+  greentext.use:
+    description: Granted by default. Enables the usage of greentext for players with this permission.
+    default: true
