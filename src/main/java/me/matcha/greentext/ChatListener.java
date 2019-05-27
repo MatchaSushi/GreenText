@@ -14,7 +14,7 @@ public class ChatListener implements Listener {
     //Main chat listener event. Changes messages that start with > to green, excluding emotes.
     @EventHandler
     public void AsyncChatEvent(AsyncPlayerChatEvent e) {
-        String pMessage = e.getMessage().toLowerCase();
+        String pMessage = e.getMessage();
         Player p = e.getPlayer();
 
         if (pMessage.startsWith(">")) {
