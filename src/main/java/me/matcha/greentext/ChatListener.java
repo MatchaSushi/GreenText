@@ -17,13 +17,9 @@ public class ChatListener implements Listener {
         String pMessage = e.getMessage();
         Player p = e.getPlayer();
 
-        if (pMessage.startsWith(">")) {
-            if (pMessage.length() > 1) {
-                if (isLetter(pMessage.charAt(1))) {
-                    if (p.hasPermission("greentext.use")) {
-                        e.setMessage(ChatColor.GREEN + pMessage);
-                    }
-                }
+        if (pMessage.startsWith(">") && pMessage.length() > 1 && isLetter(pMessage.charAt(1))) {
+            if (p.hasPermission("greentext.use")) {
+                e.setMessage(ChatColor.GREEN + pMessage);
             }
         }
     }
